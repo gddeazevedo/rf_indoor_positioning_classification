@@ -20,7 +20,7 @@ PROJECT_ROOT = os.path.dirname(CURRENT_DIR)
 if PROJECT_ROOT not in sys.path:
     sys.path.insert(0, PROJECT_ROOT)
 
-from main import normalize_cols, prepare_data
+from demos.main import normalize_cols, prepare_data
 
 def load_train_test():
     """
